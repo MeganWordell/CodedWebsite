@@ -1,26 +1,28 @@
     body {
         font-family: "Source Code Pro", monospace;
         font-size: 22px;
-        color: rgba(0,0,255,1);
+        color: rgb(12, 66, 41);
         font-weight: 400;
         line-height: 1.4;
     }
     #container {
       padding: 10px;
+      
       /*max-width: 960px;*/
     }
     a {
-        background: white;
-        color: blue;
+        background: rgb(170, 213, 200);
+        color: rgb(0, 0, 0);
         text-decoration: none;
+        
         /*padding: 0px 8px 3px;*/
         border-radius: 2px;
-        border-bottom: 1px solid blue;
+        border-bottom: 1px solid rgb(169, 245, 212);
         transition: .4s all;
     }
     a:hover {
-        background-color: cyan;
-        color: blue;
+        background-color: rgb(179, 245, 221);
+        color: rgb(0, 0, 0);
     }
     span.date {
       margin-right: 11px;
