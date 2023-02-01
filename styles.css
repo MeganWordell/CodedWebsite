@@ -309,6 +309,8 @@ table {
   max-width:1600px;
   margin:0 auto;
   overflow:hidden;
+  padding: 0 20px;
+  }
   }
 
 /* Global Style
@@ -493,7 +495,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
  * SITE STYLES
  */
 body {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif, Arial, sans-serif;
     border-top: 10px solid #efd7ff;
     background: #D6DCB8;
     color: #403943;
@@ -567,6 +569,7 @@ a {
         margin-bottom: 1em;
     }
 }
-.social {
+.socials {
     flex-direction: row;
+    justify-content: flex-end;
 }
