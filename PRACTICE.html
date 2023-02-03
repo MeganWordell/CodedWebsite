@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<meta charset = 'utf-8'>
+	<title>Megan Wordell | Data Journalist and News Producer</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+	<meta property='image' content ='about/Gianna_Gruen.jpg'/>
+	<link rel='icon' href ='about/favicon.ico'/>
+	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Raleway:300,600"  />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400" />
+	<link rel="stylesheet" href="Gianna.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div id ='navigation' class='nav-container'>
+<ul id ='menu'>
+	<li><a href='#intro'>START</a></li>
+	<li><a href='#projects'>PROJECTS</a></li>
+	<li><a href='#about'>ABOUT</a></li>
+	<li><a href='#contact'>CONTACT</a></li>
+	<!-- <li><a href='/de'>DE</a></li> -->
+</ul>
+</div>
+
+<div id ='intro' class='container'>
+	<h1 id = 'title'>Megan Wordell</h1>
+	<h2 id = 'decription'>Data Journalist and News Producer</h2>
+
+	<p>Hi, I'm Megan! Thanks for checking out my portfolio. I'm a (baby) data journalist, ABC News producer, caffiene fiend and major cat person.</p>
+
+	<p>Scroll on to see a selection of <a href='#projects'>projects</a> I've worked on. In the <a href='#about'>about-section</a> you can learn more about me and my skills.</p>
+</div>
+
+<div id='projects' class='container'>
+	<h2>Project Portfolio</h2>
+</div>
+<ul class = 'projects-container'>
+	<li class='preview'>
+	<a href="https://medium.com/p/81cb87a0e1b9?source=linkShare-7f592780856b-1615207665&_branch_match_id=1118615424386541411&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcOCMlxyygpK05NAgCVEj6IIwAAAA%3D%3D"" target="_blank">
+		<img src='/Users/meganwordell/Desktop/CodedWebsite/1615207780027.jpeg' height='300' width='300'>
+		<h5>Evictions persist slightly below previous years’ averages despite continuing Florida COVID-19 cases</h5>
+		<p>Almost a year after Florida Governor DeSantis instituted the first statewide Coronavirus-related eviction ban, cases of both the deadly disease and evictions have persisted, leaving thousands of Floridians in legal limbo. Here’s my data story on current eviction trends in Jacksonville:.</p>
+	</a>
+	</li>
+
+	<li class='preview'>
+	<a href='https://wordellmegan.medium.com/gender-and-racial-pay-gaps-increased-at-the-end-of-2020-e8ed07f18fbe' target="_blank">
+		<img src='/Users/meganwordell/Desktop/CodedWebsite/1611844210961.jpeg' height='300' width='300'>
+		<h5>Gender and racial pay gaps continued in the final months of 2020</h5>
+		<p>In the last three months of 2020, full-time working women were paid on average less per week than full-time working men across the board, with inreasing pay inequality for minority groups, according to research from the U.S. Bureau of Labor Statistics</p>
+	</a>
+	</li>
+
+</ul>
+				
+
+<div id='contact' class='container'>
+	<h2>Contact details</h2>
+	<p>Let's collaborate! Feel free to email me at wordellmegan@gmail.com </p>
+
+	<p> You can connect with me on the following platforms:</p>
+
+	<ul class = "social-links">
+	<li>
+	<a href='https://www.github.com/MeganWordell' target="_blank">
+		<img src='http://www.w3.org/2000/svg' height="60" width="60">
+	</a>
+	</li>
+	<li>
+	<a href='https://www.twitter.com/MeganWordell' target="_blank">
+		<img src='http://www.w3.org/2000/svg' height="60" width="60">
+	</a>
+	</li>
+	<li>
+	<a href='https://www.linkedin.com/in/MeganWordell' target="_blank">
+	<img src='http://www.w3.org/2000/svg' height="60" width="60">
+	</a>
+	</li>
+</ul>
+
+</div>
+
+
+<div id = 'footer' class='container'>
+	<p>© 2019 Gianna Carina Grün</p>
+
+<!-- Credit for the scrolling feature goes to Tania Rascia: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/ -->
+<script src="build/jquery.js"></script>
+<script>
+
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({scrollTop: position});
+});
+
+
+</script>
+</body>
+
+</html>

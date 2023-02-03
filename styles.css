@@ -311,7 +311,6 @@ table {
   overflow:hidden;
   padding: 0 20px;
   }
-  }
 
 /* Global Style
 ------------------------------------------------------- */
@@ -548,13 +547,16 @@ a {
 
 .portfolio-img {
     border: 1px solid #eaeaea;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
 }
 
 @media only screen and (min-width:641px) {
     .portfolio-img {
-        width: 49%;
+        height: 350px;
+        width: 350px;
         float: left;
         border: 1px solid #eee;
+        justify-content: space-between;
     }
 
     .portfolio-info {
@@ -573,3 +575,4 @@ a {
     flex-direction: row;
     justify-content: flex-end;
 }
+
